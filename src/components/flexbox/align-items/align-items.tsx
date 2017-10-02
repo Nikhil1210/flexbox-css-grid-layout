@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './align-items.css';
-import { Flex} from '../common';
+import {Flex, FlexExtended} from '../common';
 
 export class FlexboxAlignItems extends React.Component {
   render() {
@@ -26,33 +26,36 @@ export class FlexboxAlignItems extends React.Component {
             <div><code>align-items: stretch</code></div><hr/>
               <Flex containerClass="container-align-stretch"/>   
           </div>
-
-
-{/* 
+          <div className="item-container">
+            <div><code>Item 02 align-self:flex-start; Item03 align-self: stretch</code></div><hr/>
+              <Flex containerClass="container-self-align" item2Class="align-top"
+              item3Class="align-stretch"/>   
+          </div>
+ 
            <div className="item-container">
             <div><code>align-content: flex-start</code></div><hr/>
-              <Flex containerClass="container-align-content-start"/>   
+              <FlexExtended containerClass="container-align-content-start"/>   
           </div>
            <div className="item-container">
             <div><code>align-content: flex-end</code></div><hr/>
-              <Flex containerClass="container-align-content-end"/>   
+              <FlexExtended containerClass="container-align-content-end"/>   
           </div>
            <div className="item-container">
             <div><code>align-content: center</code></div><hr/>
-              <Flex containerClass="container-align-content-center"/>   
+              <FlexExtended containerClass="container-align-content-center"/>   
           </div>
            <div className="item-container">
             <div><code>align-content: stretch</code></div><hr/>
-              <Flex containerClass="container-align-content-stretch"/>   
+              <FlexExtended containerClass="container-align-content-stretch"/>   
           </div>
            <div className="item-container">
             <div><code>align-content: space-between</code></div><hr/>
-              <Flex containerClass="container-align-content-space-between"/>   
+              <FlexExtended containerClass="container-align-content-space-between"/>   
           </div>
            <div className="item-container">
             <div><code>align-content: space-around</code></div><hr/>
-              <Flex containerClass="container-align-content-space-around"/>   
-          </div> */}
+              <FlexExtended containerClass="container-align-content-space-around"/>   
+          </div> 
       </div>
     );
   }

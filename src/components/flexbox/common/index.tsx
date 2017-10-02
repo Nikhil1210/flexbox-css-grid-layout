@@ -3,6 +3,8 @@ import './index.css';
 interface FlexContProps {
     containerClass: string;
     itemClass?: string;
+    item2Class?: string;
+    item3Class?: string;
 }
 export const Flex: React.SFC < FlexContProps > = props => {
     return (
@@ -11,15 +13,15 @@ export const Flex: React.SFC < FlexContProps > = props => {
                 <em>Flex Item</em>
                 <strong>01</strong> 
             </div>
-            <div className="flex-item flex-item-02">
+            <div className={`flex-item flex-item-02 ${props.item2Class}`}>
                 <em>Flex Item</em>
                 <strong>02</strong>
             </div>
-            <div className="flex-item flex-item-03">
+            <div className={`flex-item flex-item-03 ${props.item3Class}`}>
                 <em>Flex Item</em>
                 <strong>03</strong>
             </div>
-            <div className="flex-item flex-item-04">
+            <div className={`flex-item flex-item-04`}>
                 <em>Flex Item</em>
                 <strong>04</strong>
             </div>

@@ -30,6 +30,11 @@ export class FlexboxJustifyContent extends React.Component {
             <div>Space Evenly</div><hr/>
               <Flex containerClass="container-space-evenly"/>   
           </div>
+
+           <div className="item-container">
+            <div>Space Evenly</div><hr/>
+              <Flex containerClass="container-space-evenly"/>   
+          </div>
       </div>
     );
   }

@@ -28,39 +28,56 @@
   border: dotted 2px gray;
   height: 200px; }
 
-/*
+.container-self-align {
+  display: flex;
+  align-items: flex-end;
+  border: dotted 2px gray;
+  height: 200px; }
+
+.align-top {
+  align-self: flex-start; }
+
+.align-stretch {
+  align-self: stretch; }
+
 .container-align-content-start {
-    display: flex;
-    align-content: flex-start;
-    @include border;
-}
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
 
 .container-align-content-end {
-    display: flex;
-    align-content: flex-end;
-    @include border;
-}
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
 
 .container-align-content-center {
-    display: flex;
-    align-content: center;
-    @include border;
-}
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
 
 .container-align-content-stretch {
-    display: flex;
-    align-content: stretch;
-    @include border;
-}
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
 
 .container-align-content-space-between {
-    display: flex;
-    align-items: space-between;
-    @include border;
-}
+  display: flex;
+  align-items: space-between;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
 
 .container-align-content-space-around {
-    display: flex;
-    align-items: space-around;
-    @include border;
-} */
+  display: flex;
+  align-items: space-around;
+  flex-wrap: wrap;
+  border: dotted 2px gray;
+  height: 200px; }
