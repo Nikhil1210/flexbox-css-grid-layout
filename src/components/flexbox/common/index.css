@@ -1,0 +1,33 @@
+.flex-item {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center; }
+
+.flex-item-01 {
+  background-color: #A62E5C; }
+
+.flex-item-02 {
+  background-color: #9BC850; }
+
+.flex-item-03 {
+  background-color: #675BA7; }
+
+.flex-item-04 {
+  background-color: #2A9FBC; }
+
+.flex-item-05 {
+  background-color: #9BC850; }
+
+.flex-item-06 {
+  background-color: #F15B2A; }
+
+.flex-item-07 {
+  background-color: #A62E5C; }
+
+.flex-item-08 {
+  background-color: #2A9FBC; }
+
+.flex-item strong {
+  display: block;
+  font-size: 130%; }

@@ -1,49 +1,39 @@
-.flex-container {
-    border: solid 4px #000;
+@mixin border {
+    border: dotted 2px gray;
 }
 
-.flex-item {
-    color: #fff;
-    font-size: 1.2em;
-    padding: 1em;
-    text-align: center;
-}
-
-.flex-item:first-child {
-    background-color: #A62E5C;
-}
-
-.flex-item:nth-child(2) {
-    background-color: #9BC850;
-}
-
-.flex-item:nth-child(3) {
-    background-color: #675BA7;
-}
-
-.flex-item strong {
-    display: block;
-    font-size: 130%;
-}
-
-.row {
-    background-color: #F0F0F0;
-}
-
-.col-md-5 {
-    background-color: white;
-}
-
-.parent {
+.container-flex-start {
     display: flex;
-    text-align: center;
-    color: gray;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    justify-content: flex-start;
+    @include border;
 }
 
-.item-container {
-    border: 1px solid lightgray;
-    flex: 0 0 40%;
-    margin: 20px;
+.container-flex-end {
+    display: flex;
+    justify-content: flex-end;
+    @include border;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    @include border;
+}
+
+.container-space-between {
+    display: flex;
+    justify-content: space-between;
+    @include border;
+}
+
+.container-space-around {
+    display: flex;
+    justify-content: space-around;
+    @include border;
+}
+
+.container-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    @include border;
 }

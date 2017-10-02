@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './intro.css';
-import {InlineFlex, Flex, FlexDirectionColumn, FlexDirectionColumnReverse} from '../common/common-intro';
+import {Flex, FlexExtended} from '../common';
 
 class FlexboxIntro extends React.Component {
   render() {
@@ -8,20 +8,29 @@ class FlexboxIntro extends React.Component {
        <div className="parent">
           <div className="item-container">
             <div>Flex</div><hr/>
-              <Flex/>
+              <Flex containerClass="container-flex"/>
           </div>
           <div className="item-container">
             <div>Inline flex</div><hr/>
-              <InlineFlex/>
+              <Flex containerClass="container-inline-flex"/>
           </div>
           <div className="item-container">
             <div>Flex direction: column</div><hr/>
-              <FlexDirectionColumn/>
-          </div>
+              <Flex containerClass="container-direction-column"/>
+           </div>
           <div className="item-container">
             <div>Flex direction: column-reverse</div><hr/>
-              <FlexDirectionColumnReverse/>
+               <Flex containerClass="container-direction-column-reverse"/>
           </div>
+          <div className="item-container">
+            <div>Flex default: no wrap</div><hr/>
+               <FlexExtended containerClass="container-flex-default-no-wrap"/>
+          </div>
+          <div className="item-container">
+            <div>Flex wrap</div><hr/>
+               <FlexExtended containerClass="container-flex-wrap"/>
+          </div>
+          
       </div>
     );
   }
