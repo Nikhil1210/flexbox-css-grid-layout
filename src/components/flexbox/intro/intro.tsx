@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './intro.css';
-import {Flex, FlexExtended} from '../common';
+import {Flex, FlexExtended, Flex2EqualItems, Flex2UnEqualItems, Flex3DifferWidth} from '../common';
 
 class FlexboxIntro extends React.Component {
   render() {
@@ -29,6 +29,18 @@ class FlexboxIntro extends React.Component {
           <div className="item-container">
             <div>Flex wrap</div><hr/>
                <FlexExtended containerClass="container-flex-wrap"/>
+          </div>
+          <div className="item-container">
+            <div>Two equal width items: <code>flex:1;</code></div><hr/>
+               <Flex2EqualItems/>
+          </div>
+          <div className="item-container">
+            <div>Two items of differ content but equal width: <code>flex:1;</code></div><hr/>
+               <Flex2UnEqualItems/>
+          </div>
+          <div className="item-container">
+            <div>Item 2 is twice the width of rest: <code>Item02-flex:0 0 50%; Item01 & Item03-flex:1;</code></div><hr/>
+               <Flex3DifferWidth/>
           </div>
           
       </div>

@@ -31,3 +31,9 @@
 .flex-item strong {
   display: block;
   font-size: 130%; }
+
+.flex-1 {
+  flex: 1; }
+
+.flex-half {
+  flex: 0 0 50%; }

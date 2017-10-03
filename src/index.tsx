@@ -20,6 +20,7 @@ import FlexboxIntro from './components/flexbox/intro/intro';
 import './index.css';
 import {FlexboxJustifyContent} from "./components/flexbox/justify-content/justify-content";
 import {FlexboxAlignItems} from "./components/flexbox/align-items/align-items";
+import FlexboxWebLayout from "./components/flexbox/web-layout/web-layout";
 
 ReactDOM.render(
   <div>
@@ -34,6 +35,7 @@ ReactDOM.render(
             <MenuItem href="flexbox-intro">Intro</MenuItem>
             <MenuItem href="flexbox-justify-content">Justify Content</MenuItem>
             <MenuItem href="flexbox-align-items">Align items</MenuItem>
+            <MenuItem href="flexbox-web-layout">Web Layout</MenuItem>
           </NavDropdown>
           <NavDropdown title="CSS Grid" id="basic-nav-dropdown">
             <MenuItem href="cssgrid-intro">Intro</MenuItem>
@@ -47,6 +49,7 @@ ReactDOM.render(
         <Route path="/flexbox-intro" component={FlexboxIntro}/>     
         <Route path="/flexbox-justify-content" component={FlexboxJustifyContent}/>
         <Route path="/flexbox-align-items" component={FlexboxAlignItems}/>
+        <Route path="/flexbox-web-layout" component={FlexboxWebLayout}/>
         <Route path="/cssgrid-intro" component={CSSGridIntro}/>
       </Grid>
     </Router>

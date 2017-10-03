@@ -67,3 +67,54 @@ export const FlexExtended: React.SFC < FlexContProps > = props => {
             </div>
     );
 };
+
+export const Flex2EqualItems: React.SFC < {} > = props => {
+    return (
+           <div style={{display: 'flex'}}>
+            <div className="flex-item flex-item-01 flex-1">
+                <em>Flex Item</em>
+                <strong>01</strong> 
+            </div>
+            <div className={`flex-item flex-item-02 flex-1`}>
+                <em>Flex Item</em>
+                <strong>02</strong>
+            </div>
+            </div>
+    );
+};
+
+export const Flex2UnEqualItems: React.SFC < {} > = props => {
+    return (
+           <div style={{display: 'flex'}}>
+            <div className="flex-item flex-item-01 flex-1">
+                <em>Flex Item</em>
+                <strong>01</strong> 
+            </div>
+            <div className={`flex-item flex-item-02 flex-1`}>
+                <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
+                     veritatis nihil nesciunt repellendus, obcaecati porro necessitatibus
+                      nulla fuga asperiores. Sit dolorum distinctio nemo cupiditate.
+                       Sit unde quas, fugit cumque.</em>
+            </div>
+            </div>
+    );
+};
+
+export const Flex3DifferWidth: React.SFC < {} > = props => {
+    return (
+           <div style={{display: 'flex'}}>
+            <div className="flex-item flex-item-01 flex-1">
+                <em>Flex Item</em>
+                <strong>01</strong> 
+            </div>
+            <div className={`flex-item flex-item-02 flex-half`}>
+                <em>Flex Item</em>
+                <strong>02</strong>
+            </div>
+              <div className={`flex-item flex-item-03 flex-1`}>
+                <em>Flex Item</em>
+                <strong>03</strong>
+            </div>
+            </div>
+    );
+};
