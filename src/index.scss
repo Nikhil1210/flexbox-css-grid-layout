@@ -10,6 +10,18 @@
     border: 1px solid lightgray;
     flex: 0 0 40%;
     margin: 20px;
-    width: 900px;
-    ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-parent-layout {
+    display: grid;
+    text-align: center;
+    color: gray;
+    grid: 1fr repeat(1, 1fr)/ 1fr repeat(1, 1fr);
+    grid-gap: 4em 2em;
+}
+
+.grid-item-container {
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

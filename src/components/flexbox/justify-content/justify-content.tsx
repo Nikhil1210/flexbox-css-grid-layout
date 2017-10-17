@@ -7,32 +7,27 @@ export class FlexboxJustifyContent extends React.Component {
     return (
        <div className="parent">
            <div className="item-container">
-            <div>Flex Start</div><hr/>
+            <div><code>display: flex;<br/>justify-content: flex-start;</code></div><hr/>
               <Flex containerClass="container-flex-start"/>   
             </div>
            <div className="item-container">
-            <div>Flex End</div><hr/>
+            <div><code>display: flex;<br/>justify-content: flex-end;</code></div><hr/>
               <Flex containerClass="container-flex-end"/>   
           </div>
            <div className="item-container">
-            <div>Flex Center</div><hr/>
+            <div><code>display: flex;<br/>justify-content: center;</code></div><hr/>
               <Flex containerClass="container-center"/>   
           </div>
           <div className="item-container">
-            <div>Space between</div><hr/>
+            <div><code>display: flex;<br/>justify-content: space-between;</code></div><hr/>
               <Flex containerClass="container-space-between"/>   
           </div>
           <div className="item-container">
-            <div>Space Around</div><hr/>
+            <div><code>display: flex;<br/>justify-content: space-around;</code></div><hr/>
               <Flex containerClass="container-space-around"/>   
           </div>
           <div className="item-container">
-            <div>Space Evenly</div><hr/>
-              <Flex containerClass="container-space-evenly"/>   
-          </div>
-
-           <div className="item-container">
-            <div>Space Evenly</div><hr/>
+            <div><code>display: flex;<br/>justify-content: space-evenly;</code></div><hr/>
               <Flex containerClass="container-space-evenly"/>   
           </div>
       </div>

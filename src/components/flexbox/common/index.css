@@ -5,28 +5,28 @@
   text-align: center; }
 
 .flex-item-01 {
-  background-color: #A62E5C; }
+  background-color: #c0392b; }
 
 .flex-item-02 {
-  background-color: #9BC850; }
+  background-color: #1abc9c; }
 
 .flex-item-03 {
-  background-color: #675BA7; }
+  background-color: #f1c40f; }
 
 .flex-item-04 {
-  background-color: #2A9FBC; }
+  background-color: #2980b9; }
 
 .flex-item-05 {
-  background-color: #9BC850; }
+  background-color: #f39c12; }
 
 .flex-item-06 {
-  background-color: #F15B2A; }
+  background-color: #8e44ad; }
 
 .flex-item-07 {
-  background-color: #A62E5C; }
+  background-color: #2c3e50; }
 
 .flex-item-08 {
-  background-color: #2A9FBC; }
+  background-color: #7f8c8d; }
 
 .flex-item strong {
   display: block;
@@ -35,5 +35,5 @@
 .flex-1 {
   flex: 1; }
 
-.flex-half {
-  flex: 0 0 50%; }
+.flex-twice {
+  flex: 2; }

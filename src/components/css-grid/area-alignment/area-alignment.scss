@@ -1,0 +1,20 @@
+.container-grid {
+    display: grid;
+    grid-template: [header-start] "header header header header" 15% [header-end] [content-start] "sidebar content content content" 1fr [cintent-end] [footer-start] "footer footer footer footer" 10% [footer-end] / 20% 1fr 1fr 1fr;
+}
+
+.header-item {
+    grid-area: header;
+}
+
+.sidebar-item {
+    grid-area: sidebar;
+}
+
+.content-item {
+    grid-area: content;
+}
+
+.footer-item {
+    grid-area: footer;
+}

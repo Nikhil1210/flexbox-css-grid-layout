@@ -7,27 +7,28 @@ export class FlexboxAlignItems extends React.Component {
     return (
        <div className="parent">
            <div className="item-container">
-            <div><code> align-items: flex-start</code></div><hr/>
+            <div><code>display: flex;<br/> align-items: flex-start</code></div><hr/>
               <Flex containerClass="container-align-flex-start"/>   
             </div>
            <div className="item-container">
-            <div><code> align-items: flex-end </code></div><hr/>
+            <div><code> display: flex;<br/>align-items: flex-end </code></div><hr/>
               <Flex containerClass="container-align-flex-end"/>   
           </div>
            <div className="item-container">
-            <div> <code> align-items: center</code> </div><hr/>
+            <div> <code> display: flex;<br/>align-items: center</code> </div><hr/>
               <Flex containerClass="container-align-center"/>   
+          </div>
+           <div className="item-container">
+            <div><code>display: flex;<br/>align-items: stretch</code></div><hr/>
+              <Flex containerClass="container-align-stretch"/>   
           </div>
           <div className="item-container">
             <div><code> align-items: baseline</code></div><hr/>
               <Flex containerClass="container-align-baseline"/>   
           </div>
           <div className="item-container">
-            <div><code>align-items: stretch</code></div><hr/>
-              <Flex containerClass="container-align-stretch"/>   
-          </div>
-          <div className="item-container">
-            <div><code>Item 02 align-self:flex-start; Item03 align-self: stretch</code></div><hr/>
+            <div> <code>align-items: flex-end;</code><br/>
+              Item 02 <code>align-self:flex-start;</code> Item 03 <code>align-self: stretch;</code></div><hr/>
               <Flex containerClass="container-self-align" item2Class="align-top"
               item3Class="align-stretch"/>   
           </div>
@@ -55,7 +56,7 @@ export class FlexboxAlignItems extends React.Component {
            <div className="item-container">
             <div><code>align-content: space-around</code></div><hr/>
               <FlexExtended containerClass="container-align-content-space-around"/>   
-          </div> 
+          </div>
       </div>
     );
   }

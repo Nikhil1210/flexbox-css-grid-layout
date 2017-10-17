@@ -1,26 +1,26 @@
 .container-flex {
   display: flex;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }
 
 .container-inline-flex {
   display: inline-flex;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }
 
 .container-direction-column {
   display: flex;
   flex-direction: column;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }
 
 .container-direction-column-reverse {
   display: flex;
   flex-direction: column-reverse;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }
 
 .container-flex-default-no-wrap {
   display: flex;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }
 
 .container-flex-wrap {
   display: flex;
   flex-wrap: wrap;
-  border: dotted 2px gray; }
+  border: dashed 2px gray; }

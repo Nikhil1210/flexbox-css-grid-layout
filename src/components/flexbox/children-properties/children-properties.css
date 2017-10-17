@@ -1,0 +1,94 @@
+.container-flex-grow {
+  display: flex; }
+
+.item-flex {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b; }
+
+.item-flex-grow-1 {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex-grow: 1; }
+
+.item-flex-basis-40 {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex-basis: 40%; }
+
+.item-flex-basis-0 {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex-basis: 0px; }
+
+.item-flex-1 {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex: 1; }
+
+.flex-0-1-auto {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex: 0 1 auto; }
+
+.flex-0-0-auto {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex: 0 0 auto; }
+
+.flex-30percent {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex: 30%; }
+
+.flex-1-1-auto {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  background-color: #c0392b;
+  flex: 1 1 auto; }
+
+.flex-auto {
+  flex: auto; }
+
+.flex-default {
+  flex: default; }
+
+.flex-none {
+  flex: none; }
+
+.flex-item-01 {
+  color: white;
+  background-color: #c0392b; }
+
+.flex-item-02 {
+  color: white;
+  background-color: #1abc9c; }
+
+.flex-item-03 {
+  color: white;
+  background-color: #f1c40f; }
